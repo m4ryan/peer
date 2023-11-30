@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thrilltopia</title>
+<link href="css/custom.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="container">
+<!-- Logo -->
+<a class="navbar-brand" href="index.html">
+<span class="image-wrapper">
+<img src="img/mylogo.png" alt="your-image-alt-text">
+</span> THRILLTOPIA
+</a>
+</div>
+</nav>
+
+<!-- To and From dates -->
+
+<section id="first-tab-group" class="tabgroup">
+<div id="tab1">
+<div class="submit-form">
+<h4>Check availability for <em>rooms</em>:</h4>
+<form id="form-submit" action="" method="get">
+<div class="row">
+    <div class="col-md-6">
+        <fieldset>
+           <label for="from">From:</label>
+            <select required name='from' onchange='updateForm()'>
+                <option value="">Select a date...</option>
+                <option value="01/12/2023">01/12/2023</option>
+                <option value="02/12/2023">02/12/2023</option>
+                <option value="03/12/2023">03/12/2023</option>
+                <option value="04/12/2023">04/12/2023</option>
+                <option value="05/12/2023">05/12/2023</option>
+                <option value="06/12/2023">06/12/2023</option>
+                <option value="07/12/2023">07/12/2023</option>
+                <option value="08/12/2023">08/12/2023</option>
+                <option value="09/12/2023">09/12/2023</option>
+                <option value="10/12/2023">10/12/2023</option>
+            </select>
+
+            <label for="to">To:</label>
+            <select required name='to' onchange='updateForm()'>
+                <option value="">Select a date...</option>
+                <option value="01/12/2023">01/12/2023</option>
+                <option value="02/12/2023">02/12/2023</option>
+                <option value="03/12/2023">03/12/2023</option>
+                <option value="04/12/2023">04/12/2023</option>
+                <option value="05/12/2023">05/12/2023</option>
+                <option value="06/12/2023">06/12/2023</option>
+                <option value="07/12/2023">07/12/2023</option>
+                <option value="08/12/2023">08/12/2023</option>
+                <option value="09/12/2023">09/12/2023</option>
+                <option value="10/12/2023">10/12/2023</option>
+            </select>
+            
+            <!-- Suite or regular room -->
+
+    <div class="col-md-6">
+        <div class="radio-select">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <label for="suite">Suite</label>
+                    <input type="radio" name="trip" id="suite" value="suite" required onchange='this.form.submit()'>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <label for="regular-room">Regular room</label>
+                    <input type="radio" name="trip" id="regular-room" value="regular-room" required onchange='this.form.submit()'>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <fieldset>
+            <button type="submit" id="form-submit" class="btn">Book Room Now</button>
+        </fieldset>
+    </div>
+</div>
+</form>
+</div>
+</div>
+</section>
+
+<section class="contact-form">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="section-heading">
+    <h2>Leave us a message</h2>
+</div>
+</div>
+<div class="col-md-6 col-md-offset-3">
+<form id="contact" action="#" method="post">
+    <!-- Your form fields here -->
+</form>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Maps -->
+<section class="map">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div id="map">
+    <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Contact info -->
+<footer>
+<div id="fpcontactInformation">
+<ul>
+<li id="contact">Contact Us:</li>
+<li id="name">Thrilltopia Office</li>
+<li id="email"><a href="mailto:info@thrilltopia.com">info@thrilltopia.com</a></li>
+<li id="charity">CALL US: 987654321 RR0001</li>
+</ul>
+</div>
+</footer>
+
+</body>
+
+</html>
