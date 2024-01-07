@@ -173,7 +173,7 @@
 
     a:hover,
     a:focus {
-        color: darkblue;
+        color: #0000FF;
         text-decoration: underline;
     }
 

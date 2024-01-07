@@ -1,0 +1,154 @@
+body {
+    font-family: 'Your Sans-Serif Font', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light grey background */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navigation */
+.navbar {
+    background-color: transparent;
+    padding: 1rem;
+    text-align: center;
+}
+
+.navbar-brand {
+    color: #3498db; /* Light blue text color */
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Feature */
+.jumbotron {
+    background-color: #3498db; /* Light blue background */
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; /* White text color */
+}
+
+.btn-primary {
+    background-color: #3498db; /* Light blue button color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.btn-primary:hover {
+    background-color: #2980b9; /* Slightly darker blue on hover */
+}
+
+/* Promos */
+.promo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo-item {
+    text-align: center;
+    padding: 20px;
+    flex: 1;
+    border-radius: 5px;
+    background-color: #ecf0f1; /* Light grey background */
+    margin: 0 10px;
+}
+
+.promo-item h3 {
+    color: #3498db; /* Light blue text color */
+}
+
+/* Best Sellers List */
+        #bestSellersList ol {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        #bestSellersList li {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #ecf0f1; /* Light grey background */
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+footer a {
+    color: #3498db; /* Light blue text color */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #2980b9; /* Slightly darker blue on hover */
+}
+
+/* Feature */
+.jumbotron {
+    background-color: #3498db;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.jumbotron img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Promos */
+.promo-item {
+    text-align: center;
+    padding: 20px;
+    flex: 1;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    margin: 0 10px;
+}
+
+.promo-item h3 {
+    color: #3498db;
+}
+
+.promo-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+}

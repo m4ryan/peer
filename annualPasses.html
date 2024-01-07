@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thrilltopia</title>
+    <link href="css/custom.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Your Sans-Serif Font', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #6b5add;
+            font-size: 1.5em;
+        }
+
+        .logo img {
+            width: 30px; /* Adjust the width as needed */
+            height: auto;
+            margin-right: 10px;
+        }
+
+        section {
+            padding: 20px;
+            border-radius: 10px; /* Add rounded corners to the container */
+            background-color: #fff; /* Add background color */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #6b5add;
+        }
+
+        .pass-details {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .pass-image img {
+            width: 100%; /* Make the image responsive */
+            max-width: 400px; /* Adjust the maximum width as needed */
+            height: auto;
+            border: 5px solid #6b5add; /* Add border to the image */
+            border-radius: 10px; /* Add rounded corners to the image container */
+        }
+
+        .pass-content {
+            flex: 1;
+            margin-left: 20px; /* Add space between image and content */
+        }
+
+        .btn-primary {
+            background-color: #6b5add;
+            border: none;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1em;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            display: inline-block;
+            border-radius: 5px; /* Add rounded corners to the button */
+        }
+
+        .btn-primary:hover {
+            background-color: #4d3b8c;
+        }
+
+        footer {
+            padding: 20px 0;
+            background-color: #f7f7f7;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        footer li {
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        footer a {
+            color: #6b5add;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #4d3b8c;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="container">
+        <a class="logo" href="index.html">
+            <img src="img/mylogo.png" alt="Thrilltopia Logo">
+            <span>THRILLTOPIA</span>
+        </a>
+    </header>
+
+    <section class="container">
+        <h2>Annual Passes</h2>
+
+        <div class="pass-details">
+            <div class="pass-image">
+                <img src="img/tick1.png" alt="Annual Pass Image">
+            </div>
+            <div class="pass-content">
+                <p>Unlock a year of thrilling experiences with our Annual Passes! Enjoy unlimited access to our exciting rides and attractions. Purchase your Annual Pass today and make every day an adventure.</p>
+                <p>Experience the adrenaline rush of Galactic Odyssey, the daring Outlaw Outburst, and the enchanting Unicorn Utopia whenever you desire. Whether you're a frequent visitor or someone seeking constant exhilaration, our Annual Passes provide the flexibility and freedom to create unforgettable memories. Don't miss out on the opportunity to make every day an adventure – secure your Annual Pass today and immerse yourself in the endless wonders of Thrilltopia!</p>
+                <p>Price: £90</p>
+                <a class="btn btn-primary" href="#">Buy Now</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container">
+        <div id="fpcontactInformation">
+            <ul>
+                <li id="contact">Contact Us:</li>
+                <li id="name">Thrilltopia Office</li>
+                <li id="email"><a href="mailto:info@thrilltopia.com">info@thrilltopia.com</a></li>
+                <li id="charity">CALL US: 987654321 RR0001</li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
